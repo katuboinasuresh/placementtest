@@ -26,9 +26,7 @@ export default function SearchPhotos() {
     return (
         <>
             <form className="form" onSubmit={searchPhotos}>
-                {" "}
                 <label className="label" htmlFor="query">
-                    {" "}
                 </label>
                 <input
                     type="text"
